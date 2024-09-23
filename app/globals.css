@@ -82,6 +82,11 @@
   color: white;
 }
 
+.cl-userButtonAvatarBox{
+  width: 40px;
+  height: 40px;
+}
+
 /* =============================== */
 
 @layer utilities {
