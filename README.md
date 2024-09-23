@@ -4,14 +4,14 @@
 
 ![image](public/Preview.png)
 
-## 📋 <a name="table">Table of Contents</a>
+## <a name="table">Table of Contents</a>
 
 1. [Introduction](#introduction)
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
 4. [Getting Started](#getting-started)
-5. [Assets & Code](#snippets)
-6. [More](#more)
+5. [Screenshots](#screenshots)
+6. [Feedback](#feedback)
 
 ## <a name="introduction">Introduction</a>
 
