@@ -10,7 +10,7 @@
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
 4. [Getting Started](#getting-started)
-5. [Screenshots](#screenshots)
+5. [Screenshots](#more-screenshots)
 6. [Feedback](#feedback)
 
 ## <a name="introduction">Introduction</a>
