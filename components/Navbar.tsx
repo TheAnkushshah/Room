@@ -13,7 +13,7 @@ const Navbar = () => {
           width={65}
           height={65}
           alt="room logo"
-          className="max-sm:size-70"
+          className="max-sm:size-10"
         />
         <p className="text-[26px] font-extrabold text-white max-sm:hidden">
           Room
