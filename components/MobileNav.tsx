@@ -24,11 +24,11 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent side="left" className="border-none bg-dark-1">
-          <Link href="/" className="flex items-center gap-1">
+          <Link href="/" className="flex items-center gap-3.5">
             <Image
               src="/icons/logo.png"
-              width={65}
-              height={65}
+              width={48}
+              height={48}
               alt="room logo"
             />
             <p className="text-[26px] font-extrabold text-white">Room</p>

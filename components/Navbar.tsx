@@ -6,12 +6,12 @@ import MobileNav from './MobileNav';
 
 const Navbar = () => {
   return (
-    <nav className="flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10">
-      <Link href="/" className="flex items-center gap-1">
+    <nav className="flex-between fixed z-50 w-full bg-dark-1 px-6 py-5 lg:px-10">
+      <Link href="/" className="flex items-center gap-3.5">
         <Image
           src="/icons/logo.png"
-          width={65}
-          height={65}
+          width={48}
+          height={48}
           alt="room logo"
           className="max-sm:size-10"
         />
