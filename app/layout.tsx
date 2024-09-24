@@ -28,6 +28,7 @@ export default function RootLayout({
           layout: {
             socialButtonsVariant: "iconButton",
             logoImageUrl: "/icons/room-logo.png",
+            unsafe_disableDevelopmentModeWarnings: true,
           },
           variables: {
             colorText: "#fff",
@@ -37,6 +38,8 @@ export default function RootLayout({
             colorInputText: "#fff",
           },
         }}
+        signInFallbackRedirectUrl="/"
+        signUpFallbackRedirectUrl="/"
       >
         <body className={`${inter.className} bg-dark-2`}>
           <Toaster />
