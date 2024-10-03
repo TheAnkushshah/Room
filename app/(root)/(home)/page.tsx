@@ -2,12 +2,9 @@
 
 import MeetingTypeList from '@/components/MeetingTypeList';
 import React from 'react';
+import CurrentTime from '@/components/Currenttime'; // Import the CurrentTime component
 
 const Home = () => {
-  const now = new Date();
-  const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-  const date = new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(now);
-
   return (
     <section className="flex size-full flex-col gap-5 text-white">
       <div className="h-[303px] w-full rounded-[20px] bg-hero bg-cover">
@@ -15,10 +12,7 @@ const Home = () => {
           <h2 className="glassmorphism max-w-[273px] rounded py-2 text-center text-base font-normal md:mb-8 lg:mb-0 md:m-8 lg:mt-0 lg:m-0">
             Built with ❤️ by Ankush Shah
           </h2>
-          <div className="flex flex-col gap-2 md:p-8 lg:p-0">
-            <h1 className="text-4xl font-extrabold lg:text-7xl">{time}</h1>
-            <p className="text-lg font-medium text-sky-1 lg:text-2xl">{date}</p>
-          </div>
+          <CurrentTime /> {/* Use the CurrentTime component here */}
         </div>
       </div>
 
