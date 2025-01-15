@@ -19,6 +19,8 @@ Replicates Zoom, a widely used video conferencing tool. It enables users to secu
 
 - Next.js
 - TypeScript
+- HTML5
+- CSS3
 - Clerk
 - getstream
 - shadcn
