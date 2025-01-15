@@ -1,23 +1,21 @@
-<a name="readme-top"></a>
+### Room
 
-# Room - A Video & Audio Meeting Platform
+Replicates Zoom, a widely used video conferencing tool. It enables users to securely login and signup, create meetings and access various meeting functionalities such as recording, screen sharing, managing participants and many more.
+
+### Preview
 
 ![image](public/Preview.png)
 
-## <a name="table">Table of Contents</a>
+### <a name="table">Table of Contents</a>
 
-1. [Introduction](#introduction)
-2. [Tech Stack](#tech-stack)
-3. [Features](#features)
-4. [Getting Started](#getting-started)
-5. [Screenshots](#more-screenshots)
-6. [Feedback](#feedback)
+1. [Tech Stack](#tech-stack)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Feedback](#feedback)
+5. [Contributors](#contributors)
 
-## <a name="introduction">Introduction</a>
 
-Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
-
-## <a name="tech-stack">Tech Stack</a>
+### <a name="tech-stack">Tech Stack</a>
 
 - Next.js
 - TypeScript
@@ -26,96 +24,209 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 - shadcn
 - Tailwind CSS
 
-## <a name="features">Features</a>
+### <a name="features">Features</a>
 
-**Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
+- **Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
 
-**New Meeting**: Quickly start a new meeting, configuring camera and microphone settings before joining.
+- **New Meeting**: Quickly start a new meeting, configuring camera and microphone settings before joining.
 
-**Meeting Controls**: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
+- **Meeting Controls**: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
 
-**Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
+- **Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
 
-**Schedule Future Meetings**: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
+- **Schedule Future Meetings**: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
 
-**Past Meetings List**: Access a list of previously held meetings, including details and metadata.
+- **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
 
-**View Recorded Meetings**: Access recordings of past meetings for review or reference.
+- **View Recorded Meetings**: Access recordings of past meetings for review or reference.
 
-**Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
+- **Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
 
-**Join Meetings via Link**: Easily join meetings created by others by providing a link.
+- **Join Meetings via Link**: Easily join meetings created by others by providing a link.
 
-**Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
+- **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
 
-**Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
+- **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
 
-and many more, including code architecture and reusability. 
 
-## <a name="getting-started">Getting Started</a>
+### <a name="getting-started">Getting Started</a>
 
-**Make sure you have the following installed on your machine**
+### Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+### Cloning
 
-```bash
-git clone https://github.com/theankushshah/room.git
-cd zoom-clone
-```
+1. **Cloning:** 
 
-**Installation**
+    Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
-Install the project dependencies using npm:
+    ```bash
+    git clone https://github.com/theankushshah/room.git
+    ```
 
-```bash
-npm install
-```
+2. **Navigate to the Directory:** 
+    
+    Once cloned, navigate into the project directory using the `cd` command:
 
-**Set Up Environment Variables**
+    ```bash
+    cd room
+    ```
 
-Create a new file named `.env` in the root of your project and add the following content:
+### Download
 
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+1. **Download ZIP Code folder:** 
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    Unzip the folder in your machine.
 
-NEXT_PUBLIC_STREAM_API_KEY=
-STREAM_SECRET_KEY=
-```
+2. **Navigate to the Downloaded Directory:** 
 
-Replace the placeholder values with your actual Clerk & getstream credentials. You can obtain these credentials by signing up on the [Clerk website](https://clerk.com/) and [getstream website](https://getstream.io/)
+    Open your code editor and open the unzipped folder in it then:
 
-**Running the Project**
+    ```bash
+    cd /path/to/downloaded/folder
+    ```
 
-```bash
-npm run dev
-```
+### Cloning & Download
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+1. **Dependencies Installation:**
 
-## More Screenshots
+    ```bash
+    npm install
+    ```
 
-![image](public/up.png)
+2. **Environment Variables & Database Setup:** 
 
-![image](public/past.png)
+    Create a new file named `.env` in the root of your project and add the following content:
 
-![image](public/record.png)
+    ```env
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
 
-![image](public/link.png)
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-## Feedback
+    NEXT_PUBLIC_STREAM_API_KEY=
+    STREAM_SECRET_KEY=
+    ```
+
+    Replace the placeholder values with your actual Clerk & getstream credentials. You can obtain these credentials by signing up on the [Clerk website](https://clerk.com/) and [getstream website](https://getstream.io/)
+    
+3. **Running:**
+
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+4. **Start Coding:** 
+
+    Feel free to edit the code according to your requirements. 
+
+5. **Testing**
+
+    ```bash
+    npm test
+    ```
+
+6. **Build for Production**
+
+    ```bash
+    npm run build
+    ```
+
+### Github
+
+1. **Initialize a New Git Repository:**
+
+    ```bash
+    git init
+    ```
+
+2. **Stage and Commit the Code:**
+
+    ```bash
+    git add .
+    git commit -m "Initial commit"
+    ```
+
+3. **Create a New Repository on GitHub:**
+
+    Do not initialize the new repository with a README, .gitignore, or license.
+
+4. **Link Local Repository to GitHub:**
+
+    ```bash
+    git remote add origin https://github.com/username/new-repo.git
+    ```
+
+    Replace https://github.com/username/new-repo.git with your actual repository URL.
+
+5. **Push Code to GitHub:**
+
+    ```bash
+    git branch -m main
+    git pull origin main
+    git push -u origin main
+    ```
+
+6. **Deployment:** 
+    
+    Deploy the application to your preferred hosting platform to make it accessible online.
+
+
+### Forking
+
+1. **Forking:** 
+
+    Run the following command in your terminal or command prompt to fork the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/your-username/room.git
+    ```
+
+2. **Navigate to the Directory:** 
+
+    Once cloned, navigate into the project directory using the `cd` command:
+
+    ```bash
+    cd room
+    ```
+
+3. **Start Coding:** 
+
+    Make the additions & desired changes to the code.
+
+4. **Commit & Push Your Changes to Your Fork:** 
+
+    Once cloned, navigate into the project directory using the `cd` command:
+
+    ```bash
+    git add .
+    git commit -m ""
+    git pull origin main
+    git push -u origin main
+    ```
+
+5. **Create a Pull Request:**
+
+- Go to your forked repository on GitHub
+- Click the "Compare & pull request" button.
+- Review your changes and write a clear description of your contribution.
+- Click "Create pull request"
+
+    **I will review your pull request and decide whether to merge your changes into my repository or not**
+
+### <a name="feedback">Feedback</a>
 
 You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
 
-## Developer & Main
+### <a name="contributors">Contributors & Main</a>
 
-- Ankush Shah (ankushsahvlogs@gmail.com) (Main)
+- Ankush Shah (ankushsahvlogs@gmail.com)
+- Haven Futures (support@havenfutures.com) (Main)
 
-Happy coding! 🚀
+Happy coding!
