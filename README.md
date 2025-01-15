@@ -112,7 +112,7 @@ Replicates Zoom, a widely used video conferencing tool. It enables users to secu
     STREAM_SECRET_KEY=
     ```
 
-    Replace the placeholder values with your actual Clerk & getstream credentials. You can obtain these credentials by signing up on the [Clerk website](https://clerk.com/) and [getstream website](https://getstream.io/)
+    Replace the placeholder values with your actual Clerk & getstream credentials. You can obtain these credentials by signing up on the [Clerk website](https://clerk.com/) and [Getstream website](https://getstream.io/)
     
 3. **Running:**
 
