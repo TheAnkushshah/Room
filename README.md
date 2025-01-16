@@ -14,7 +14,6 @@ Replicates Zoom, a widely used video conferencing tool. It enables users to secu
 4. [Feedback](#feedback)
 5. [Contributors](#contributors)
 
-
 ### <a name="tech-stack">Tech Stack</a>
 
 - Next.js
@@ -22,8 +21,9 @@ Replicates Zoom, a widely used video conferencing tool. It enables users to secu
 - HTML5
 - CSS3
 - Clerk
-- getstream
-- shadcn
+- Getstream
+- Node.js
+- NPM
 - Tailwind CSS
 
 ### <a name="features">Features</a>
@@ -49,7 +49,6 @@ Replicates Zoom, a widely used video conferencing tool. It enables users to secu
 - **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
 
 - **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
-
 
 ### <a name="getting-started">Getting Started</a>
 
