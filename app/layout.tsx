@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/room-logo.png",
+            logoImageUrl: "/icons/logo.png",
             unsafe_disableDevelopmentModeWarnings: true,
           },
           variables: {
